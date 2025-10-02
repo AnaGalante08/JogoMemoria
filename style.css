@@ -1,5 +1,6 @@
 body {
     background: #000014;
+
 }
 
 h1 {
@@ -21,11 +22,13 @@ justify-content: center;
    
     grid-template-columns: repeat(6, 100px);
 
-    gap: 15px;
+    gap: 21px;
 
  
     justify-content: center;
     margin: 0 auto;
+
+   
 }
 
 .card {
@@ -45,6 +48,21 @@ justify-content: center;
     /* Garante que a imagem não seja maior que a carta */
     max-width: 90%;
     max-height: 90%;
+}
+
+.cardroxo{
+background-color: #8958FF;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFF;
+color: #FFF;
+text-align: center;
+font-family: "Jolly Lodger";
+ border-radius: 12px;
+font-size: 35px;
+
+
 }
 
 
