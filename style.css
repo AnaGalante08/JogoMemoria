@@ -1,15 +1,9 @@
-*{
-
+body {
+    background: #000014;
 }
-body{
-background: #000014;
-}
-h1{
 
-    display: flex;
-
-    justify-content: center;
-color: #FFF;
+h1 {
+  color: #FFF;
 -webkit-text-stroke-width: 4px;
 -webkit-text-stroke-color: #8958FF;
 font-family: "Jolly Lodger";
@@ -17,15 +11,40 @@ font-size: 96px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-}
-.cartas{
-    width: 176px;
-height: 176px;
-border-radius: 12px;
-background: #FFE3BD;
 display: flex;
-justify-content: center;
 align-items: center;
-
+justify-content: center;
 }
+
+.grid-container {
+    display: grid;
+   
+    grid-template-columns: repeat(6, 100px);
+
+    gap: 15px;
+
+ 
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.card {
+    
+    width: 100px;
+    height: 120px; /* Use as dimensões que você queria antes */
+    border-radius: 12px;
+    background: #FFE3BD;
+    
+  
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.card img {
+    /* Garante que a imagem não seja maior que a carta */
+    max-width: 90%;
+    max-height: 90%;
+}
+
 
