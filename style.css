@@ -15,6 +15,7 @@ line-height: normal;
 display: flex;
 align-items: center;
 justify-content: center;
+padding-top: 80px;
 }
 
 .grid-container {
